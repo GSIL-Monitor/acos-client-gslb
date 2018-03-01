@@ -4,15 +4,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "acos-client",
-    version = "1.4.2",
+    name = "acos-client-gslb",
+    version = "1.0.0",
     packages = find_packages(),
 
-    author = "A10 Networks",
+    author = "A10 Networks & Pete Cheng Guan",
     author_email = "mdurrant@a10networks.com",
     description = "A10 Networks ACOS API Client",
     license = "Apache",
-    keywords = "a10 axapi acos adc slb load balancer",
+    keywords = "a10 axapi acos adc slb and gslb load balancer",
     url = "https://github.com/a10networks/acos-client",
 
     long_description = open('README.md').read(),
